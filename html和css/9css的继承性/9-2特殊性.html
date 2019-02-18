@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>继承性</title>
+		<style type="text/css">
+			/* 标签的权值为1，类选择符的权值为10，ID选择符的权值最高为100。例如下面的代码： */
+			p{color:red;} /*权值为1*/
+			p span{color:green;} /*权值为1+1=2*/
+			.warning{color:black;} /*权值为10*/
+		</style>
+	</head>
+	<body>
+		<p class="warning">你好<span>呀</span></p>
+		<p>啦啦啦啦啦啦啦</p>
+	</body>
+</html>

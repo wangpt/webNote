@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>水平居中设置</title>
+		<style type="text/css">
+			.wrap{
+				float:left;
+				position:relative;
+				left:50%
+			}
+			.wrap-center{
+				background:#ccc;
+				position:relative;
+				left:-50%;
+			}
+		</style>
+	</head>
+	<!-- 刚开始两个div都加上position：relative
+	父div left：50%，这时候父div左侧对齐了整个屏幕的中线(左侧对齐)
+	子div left:-50% 是相对其父元素左移50%  这时子div的中线 对齐父div的左侧 对齐整个窗口中线(中间对齐) -->
+	<body>
+		<div class="wrap">
+		<div class="wrap-center">我们来学习一下这种方法。</div>
+		</div>
+		
+	</body>
+</html>

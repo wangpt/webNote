@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>absolute样式</title>
+		<style type="text/css">
+			#div1{
+				width:200px;
+				height:200px;
+				border:2px red solid;
+				position: relative;
+				left: 100px;
+				top: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		虽然div元素相对于以前的位置产生了偏移，但是div元素以前的位置还是保留着
+		<div id="div1">div1</div>
+		<div id="div2">
+					虽然div元素相对于以前的位置产生了偏移，但是div元素以前的位置还是保留着
+			
+		</div>
+	</body>
+</html>

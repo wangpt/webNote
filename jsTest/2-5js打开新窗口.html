@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>js警告</title>
+			<script type="text/javascript">
+			    function wopen(){
+					window.open('http://www.baidu.com','_blank','')
+				}
+				function wclose(){
+					var mywin=window.open("http://www.baidu.com");
+					mywin.close();
+				}
+		</script>
+	</head>
+	<body>
+		<p id="p1">我是第一段文字</p>
+	<input type="button" name="button" value="开启" onclick="wopen()"/>
+		<input type="button" name="button" value="关闭" onclick="wclose()"/>
+	
+	</body>
+</html>
